@@ -41,7 +41,7 @@ int main(int argc, char **argv)
   }  
   
 
-  if (mysql_real_connect(con, "localhost", "root", "1Wildhorse", 
+  if (mysql_real_connect(con, "localhost", "root", "[obscured]]", 
           "imdb", 0, NULL, 0) == NULL) 
   {
       finish_with_error(con);
